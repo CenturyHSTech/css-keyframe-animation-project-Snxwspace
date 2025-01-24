@@ -11,7 +11,11 @@ html {
 }
 
 .coin1 {
-    width: 60px;
+    width: 40px;
+    animation-name: cointoss1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 .coin2 {
@@ -27,7 +31,7 @@ html {
 }
 
 .seg1 {
-    width: 30px;
+    width: 60px;
     /* height: 500px; */
 }
 
@@ -37,20 +41,36 @@ html {
 }
 
 .seg3 {
-    width: 30px;
+    width: 60px;
     /* height: 500px; */
 }
 
 .seg4 {
-    width: 30px;
+    width: 60px;
     /* height: 500px; */
 }
 
 .seg5 {
-    width: 30px;
+    width: 60px;
     /* height: 500px; */
 }
 
 .target {
     height: 140px;
+}
+
+
+@keyframes cointoss1{
+    0%{transform: translate(80px, 540px);}
+    1%{transform: translate(80px, 509px) rotate3d(3.4, -.53, 2.2, 36deg);} 
+    2%{transform: translate(80px, 478px) rotate3d(3.4, -.53, 2.2, 72deg);}
+    3%{transform: translate(80px, 449px) rotate3d(3.4, -.53, 2.2, 108deg);}
+    4%{transform: translate(80px, 422px) rotate3d(3.4, -.53, 2.2, 144deg);}
+    5%{transform: translate(80px, 399px) rotate3d(3.4, -.53, 2.2, 180deg);}
+    6%{transform: translate(80px, 378px) rotate3d(3.4, -.53, 2.2, 216deg);}
+    7%{transform: translate(80px, 362px) rotate3d(3.4, -.53, 2.2, 252deg);}
+    8%{transform: translate(80px, 350px) rotate3d(3.4, -.53, 2.2, 288deg);}
+    9%{transform: translate(80px, 342px) rotate3d(3.4, -.53, 2.2, 324deg);}
+    10%{transform: translate(80px, 340px) rotate3d(3.4, -.53, 2.2, 360deg);}
+    100%{transform:translate(80px, 340px) rotate3d(3.4, -.53, 2.2, 360deg);}
 }
