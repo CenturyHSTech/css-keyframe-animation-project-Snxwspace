@@ -1,5 +1,6 @@
 html {
-    background-color: #80ffdd;
+    /* background-color: #80ffdd; */
+    background-color: #000;
     color: #008040;
 }
 
@@ -19,24 +20,43 @@ html {
 }
 
 .coin2 {
-    width: 60px;
+    width: 50px;
+    animation-name: cointoss2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 .coin3 {
-    width: 60px;
+    width: 40px;
+    animation-name: cointoss3;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 .coin4 {
-    width: 60px;
+    width: 50px;
+    animation-name: cointoss4;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 .seg1 {
     width: 60px;
-    /* height: 500px; */
+    animation-name: bulletseg1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 .seg2 {
     width: 60px;
+    animation-name: bulletseg2;
+    animation-duration: 30s;
+    animation-timing-function:linear;
+    animation-fill-mode: forwards;
     /* height: 500px; */
 }
 
@@ -56,21 +76,92 @@ html {
 }
 
 .target {
-    height: 140px;
+    height: 300px;
+    animation-name: targetSpin;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
 }
 
 
+@keyframes bulletseg1{
+    0%{transform: translate(-235px, 300px) scale(0%) rotate(-73deg);}
+    12%{transform: translate(-235px, 300px) scale(0%) rotate(-73deg);}
+    16%{transform: translate(-217px, 237.9px) scale(300%) rotate(-73deg);}
+    100%{transform: translate(-217px, 237.9px) scale(300%) rotate(-73deg);}
+}
+
 @keyframes cointoss1{
-    0%{transform: translate(80px, 540px);}
-    1%{transform: translate(80px, 509px) rotate3d(3.4, -.53, 2.2, 30deg);} 
-    2%{transform: translate(80px, 478px) rotate3d(3.4, -.53, 2.2, 60deg);}
-    3%{transform: translate(80px, 449px) rotate3d(3.4, -.53, 2.2, 90deg);}
-    4%{transform: translate(80px, 422px) rotate3d(3.4, -.53, 2.2, 120deg);}
-    5%{transform: translate(80px, 399px) rotate3d(3.4, -.53, 2.2, 150deg);}
-    6%{transform: translate(80px, 378px) rotate3d(3.4, -.53, 2.2, 180deg);}
-    7%{transform: translate(80px, 362px) rotate3d(3.4, -.53, 2.2, 210deg);}
-    8%{transform: translate(80px, 350px) rotate3d(3.4, -.53, 2.2, 240deg);}
-    9%{transform: translate(80px, 342px) rotate3d(3.4, -.53, 2.2, 270deg);}
-    10%{transform: translate(80px, 340px) rotate3d(3.4, -.53, 2.2, 300deg);}
-    100%{transform:translate(80px, 340px) rotate3d(3.4, -.53, 2.2, 300deg);}
+    0%{transform: translate(80px, 340px);}
+    1%{transform: translate(80px, 309px) rotate3d(3.4, -.53, 2.2, 30deg);} 
+    2%{transform: translate(80px, 278px) rotate3d(3.4, -.53, 2.2, 60deg);}
+    3%{transform: translate(80px, 249px) rotate3d(3.4, -.53, 2.2, 90deg);}
+    4%{transform: translate(80px, 222px) rotate3d(3.4, -.53, 2.2, 120deg);}
+    5%{transform: translate(80px, 199px) rotate3d(3.4, -.53, 2.2, 150deg);}
+    6%{transform: translate(80px, 178px) rotate3d(3.4, -.53, 2.2, 180deg);}
+    7%{transform: translate(80px, 162px) rotate3d(3.4, -.53, 2.2, 210deg);}
+    8%{transform: translate(80px, 150px) rotate3d(3.4, -.53, 2.2, 240deg);}
+    9%{transform: translate(80px, 142px) rotate3d(3.4, -.53, 2.2, 270deg);}
+    10%{transform: translate(80px, 140px) rotate3d(3.4, -.53, 2.2, 300deg);}
+    100%{transform:translate(80px, 140px) rotate3d(3.4, -.53, 2.2, 300deg);}
+}
+
+@keyframes bulletseg2{
+    0%{transform: translate(28px, 152px) scale(0%) rotate(5deg);}
+    16%{transform: translate(28px, 152px) scale(0%) rotate(5deg);}
+    20%{transform: translate(100px, 152px) scale(200%) rotate(5deg);}
+    100%{transform: translate(80px, 152px) scale(200%) rotate(5deg);}
+}
+
+@keyframes cointoss2{
+    0%{transform: translate(100px, 360px);}
+    1%{transform: translate(100px, 360px);}
+    2%{transform: translate(100px, 329px) rotate3d(-1.1, 1.6, -0.6, 30deg);} 
+    3%{transform: translate(100px, 298px) rotate3d(-1.1, 1.6, -0.6, 60deg);}
+    4%{transform: translate(100px, 269px) rotate3d(-1.1, 1.6, -0.6, 90deg);}
+    5%{transform: translate(100px, 242px) rotate3d(-1.1, 1.6, -0.6, 120deg);}
+    6%{transform: translate(100px, 219px) rotate3d(-1.1, 1.6, -0.6, 150deg);}
+    7%{transform: translate(100px, 198px) rotate3d(-1.1, 1.6, -0.6, 180deg);}
+    8%{transform: translate(100px, 182px) rotate3d(-1.1, 1.6, -0.6, 210deg);}
+    9%{transform: translate(100px, 170px) rotate3d(-1.1, 1.6, -0.6, 240deg);}
+    10%{transform: translate(100px, 162px) rotate3d(-1.1, 1.6, -0.6, 270deg);}
+    11%{transform: translate(100px, 160px) rotate3d(-1.1, 1.6, -0.6, 300deg);}
+    100%{transform:translate(100px, 160px) rotate3d(-1.1, 1.6, -0.6, 300deg);}
+}
+
+@keyframes cointoss3{
+    0%{transform: translate(20px, 360px);}
+    2%{transform: translate(20px, 360px);}
+    3%{transform: translate(20px, 298px) rotate3d(2.5, -2.1, 3.8, 30deg);} /* -62px */
+    4%{transform: translate(20px, 236px) rotate3d(2.5, -2.1, 3.8, 60deg);} /* -62px */
+    5%{transform: translate(20px, 178px) rotate3d(2.5, -2.1, 3.8, 90deg);} /* -58px */
+    6%{transform: translate(20px, 124px) rotate3d(2.5, -2.1, 3.8, 120deg);} /* -54px */
+    7%{transform: translate(20px, 78px) rotate3d(2.5, -2.1, 3.8, 150deg);} /* -46px */
+    8%{transform: translate(20px, 36px) rotate3d(2.5, -2.1, 3.8, 180deg);} /* -42px */
+    9%{transform: translate(20px, 4px) rotate3d(2.5, -2.1, 3.8, 210deg);} /* -32px */
+    10%{transform: translate(20px, -20px) rotate3d(2.5, -2.1, 3.8, 240deg);} /* -24px */
+    11%{transform: translate(20px, -36px) rotate3d(2.5, -2.1, 3.8, 270deg);} /* -16px */
+    12%{transform: translate(20px, -40px) rotate3d(2.5, -2.1, 3.8, 300deg);} /* -4px */
+    100%{transform:translate(20px, -40px) rotate3d(2.5, -2.1, 3.8, 300deg);}
+}
+
+@keyframes cointoss4{
+    0%{transform: translate(100px, 400px);}
+    3%{transform: translate(100px, 400px);}
+    4%{transform: translate(100px, 307px) rotate3d(10.8, -3.6, 4.8, 30deg);} /* -93px */
+    5%{transform: translate(100px, 214px) rotate3d(10.8, -3.6, 4.8, 60deg);} /* -93px */
+    6%{transform: translate(100px, 127px) rotate3d(10.8, -3.6, 4.8, 90deg);} /* -87px */
+    7%{transform: translate(100px, 46px) rotate3d(10.8, -3.6, 4.8, 120deg);} /* -81px */
+    8%{transform: translate(100px, -35px) rotate3d(10.8, -3.6, 4.8, 150deg);} /* -69px */
+    9%{transform: translate(100px, -98px) rotate3d(10.8, -3.6, 4.8, 180deg);} /* -63px */
+    10%{transform: translate(100px, -146px) rotate3d(10.8, -3.6, 4.8, 210deg);} /* -48px */
+    11%{transform: translate(100px, -182px) rotate3d(10.8, -3.6, 4.8, 240deg);} /* -36px */
+    12%{transform: translate(100px, -206px) rotate3d(10.8, -3.6, 4.8, 270deg);} /* -24px */
+    13%{transform: translate(100px, -212px) rotate3d(10.8, -3.6, 4.8, 300deg);} /* -6px */
+    100%{transform:translate(100px, -212px) rotate3d(10.8, -3.6, 4.8, 300deg);}
+}
+
+@keyframes targetSpin {
+    0%{transform:translate(100px, 240px);}
+    100%{transform:translate(100px, 240px);}
 }
