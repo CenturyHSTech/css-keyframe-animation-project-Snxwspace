@@ -73,6 +73,10 @@ html {
 
 .seg4 {
     width: 60px;
+    animation-name: bulletseg4;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
     /* height: 500px; */
 }
 
@@ -159,26 +163,26 @@ html {
 }
 
 @keyframes bulletseg4{
-    0%{transform: translate(-200px, 20px) scale(20%) rotate(-55deg);}
-    /* 20%{transform: translate(-118px, 165px) scale(0%) rotate(-100deg);}
-    24%{transform: translate(-134px, 66px) scale(325%) rotate(-100deg);} */
-    100%{transform: translate(-200px, 20px) scale(325%) rotate(-55deg);}
+    0%{transform: translate(-216px, -29px) scale(0%) rotate(-55deg);}
+    24%{transform: translate(-216px, -29px) scale(0%) rotate(-55deg);}
+    28%{transform: translate(-156px, -115px) scale(350%) rotate(-55deg);}
+    100%{transform: translate(-156px, -115px) scale(350%) rotate(-55deg);}
 }
 
 @keyframes cointoss4{
     0%{transform: translate(100px, 400px);}
     3%{transform: translate(100px, 400px);}
-    4%{transform: translate(100px, 307px) rotate3d(10.8, -3.6, 4.8, 30deg);} /* -93px */
-    5%{transform: translate(100px, 214px) rotate3d(10.8, -3.6, 4.8, 60deg);} /* -93px */
-    6%{transform: translate(100px, 127px) rotate3d(10.8, -3.6, 4.8, 90deg);} /* -87px */
-    7%{transform: translate(100px, 46px) rotate3d(10.8, -3.6, 4.8, 120deg);} /* -81px */
-    8%{transform: translate(100px, -35px) rotate3d(10.8, -3.6, 4.8, 150deg);} /* -69px */
-    9%{transform: translate(100px, -98px) rotate3d(10.8, -3.6, 4.8, 180deg);} /* -63px */
-    10%{transform: translate(100px, -146px) rotate3d(10.8, -3.6, 4.8, 210deg);} /* -48px */
-    11%{transform: translate(100px, -182px) rotate3d(10.8, -3.6, 4.8, 240deg);} /* -36px */
-    12%{transform: translate(100px, -206px) rotate3d(10.8, -3.6, 4.8, 270deg);} /* -24px */
-    13%{transform: translate(100px, -212px) rotate3d(10.8, -3.6, 4.8, 300deg);} /* -6px */
-    100%{transform:translate(100px, -212px) rotate3d(10.8, -3.6, 4.8, 300deg);}
+    4%{transform: translate(100px, 307px) rotate3d(10.8, -0.36, 4.8, 30deg);} /* -93px */
+    5%{transform: translate(100px, 214px) rotate3d(10.8, -0.36, 4.8, 60deg);} /* -93px */
+    6%{transform: translate(100px, 127px) rotate3d(10.8, -0.36, 4.8, 90deg);} /* -87px */
+    7%{transform: translate(100px, 46px) rotate3d(10.8, -0.36, 4.8, 120deg);} /* -81px */
+    8%{transform: translate(100px, -35px) rotate3d(10.8, -0.36, 4.8, 150deg);} /* -69px */
+    9%{transform: translate(100px, -98px) rotate3d(10.8, -0.36, 4.8, 180deg);} /* -63px */
+    10%{transform: translate(100px, -146px) rotate3d(10.8, -0.36, 4.8, 210deg);} /* -48px */
+    11%{transform: translate(100px, -182px) rotate3d(10.8, -0.36, 4.8, 240deg);} /* -36px */
+    12%{transform: translate(100px, -206px) rotate3d(10.8, -0.36, 4.8, 270deg);} /* -24px */
+    13%{transform: translate(100px, -212px) rotate3d(10.8, -0.36, 4.8, 300deg);} /* -6px */
+    100%{transform:translate(100px, -212px) rotate3d(10.8, -0.36, 4.8, 300deg);}
 }
 
 @keyframes targetSpin {
