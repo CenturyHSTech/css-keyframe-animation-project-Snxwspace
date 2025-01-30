@@ -82,15 +82,17 @@ html {
 
 .seg5 {
     width: 60px;
+    animation: bulletseg5 30s linear forwards;
     /* height: 500px; */
 }
 
 .target {
     height: 300px;
     animation-name: targetSpin;
-    animation-duration: 30s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 10.8s;
+    animation-timing-function: cubic-bezier(0, 0.75, 0.25, 1);
+    animation-fill-mode: both;
 }
 
 
@@ -185,7 +187,14 @@ html {
     100%{transform:translate(100px, -212px) rotate3d(10.8, -0.36, 4.8, 300deg);}
 }
 
+@keyframes bulletseg5 {
+    0%{transform: translate(-160px, -201px) scale(0%) rotate(26deg);}
+    28%{transform: translate(-160px, -201px) scale(0%) rotate(26deg);}
+    36%{transform: translate(110px, -70px) scale(1000%) rotate(26deg);}
+    100%{transform: translate(110px, -70px) scale(1000%) rotate(26deg);}
+}
+
 @keyframes targetSpin {
-    0%{transform:translate(100px, 240px);}
-    100%{transform:translate(100px, 240px);}
+    0%{transform: translate(100px, 240px) rotate3d(0, 1, 0, 0deg);}
+    100%{transform: translate(100px, 240px) rotate3d(0, 1, 0, 3600deg);}
 }
