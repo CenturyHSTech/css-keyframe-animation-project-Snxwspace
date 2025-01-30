@@ -97,10 +97,10 @@ html {
 
 
 @keyframes bulletseg1{
-    0%{transform: translate(-235px, 300px) scale(0%) rotate(-73deg);}
-    12%{transform: translate(-235px, 300px) scale(0%) rotate(-73deg);}
-    16%{transform: translate(-217px, 237.9px) scale(300%) rotate(-73deg);}
-    100%{transform: translate(-217px, 237.9px) scale(300%) rotate(-73deg);}
+    0%{transform: translate(-235px, 300px) scale(0) rotate(-73deg);}
+    12%{transform: translate(-235px, 300px) scale(0) rotate(-73deg);}
+    16%{transform: translate(-217px, 237.9px) scale(3) rotate(-73deg);}
+    100%{transform: translate(-217px, 237.9px) scale(3) rotate(-73deg);}
 }
 
 @keyframes cointoss1{
@@ -119,10 +119,10 @@ html {
 }
 
 @keyframes bulletseg2{
-    0%{transform: translate(28px, 152px) scale(0%) rotate(5deg);}
-    16%{transform: translate(28px, 152px) scale(0%) rotate(5deg);}
-    20%{transform: translate(95px, 158px) scale(225%) rotate(5deg);}
-    100%{transform: translate(95px, 158px) scale(225%) rotate(5deg);}
+    0%{transform: translate(28px, 152px) scale(0) rotate(5deg);}
+    16%{transform: translate(28px, 152px) scale(0) rotate(5deg);}
+    20%{transform: translate(95px, 158px) scale(2.25) rotate(5deg);}
+    100%{transform: translate(95px, 158px) scale(2.25) rotate(5deg);}
 }
 
 @keyframes cointoss2{
@@ -142,10 +142,10 @@ html {
 }
 
 @keyframes bulletseg3{
-    0%{transform: translate(-118px, 165px) scale(0%) rotate(-100deg);}
-    20%{transform: translate(-118px, 165px) scale(0%) rotate(-100deg);}
-    24%{transform: translate(-134px, 66px) scale(325%) rotate(-100deg);}
-    100%{transform: translate(-134px, 66px) scale(325%) rotate(-100deg);}
+    0%{transform: translate(-118px, 165px) scale(0) rotate(-100deg);}
+    20%{transform: translate(-118px, 165px) scale(0) rotate(-100deg);}
+    24%{transform: translate(-134px, 66px) scale(3.25) rotate(-100deg);}
+    100%{transform: translate(-134px, 66px) scale(3.25) rotate(-100deg);}
 }
 
 @keyframes cointoss3{
@@ -165,10 +165,10 @@ html {
 }
 
 @keyframes bulletseg4{
-    0%{transform: translate(-216px, -29px) scale(0%) rotate(-55deg);}
-    24%{transform: translate(-216px, -29px) scale(0%) rotate(-55deg);}
-    28%{transform: translate(-156px, -115px) scale(350%) rotate(-55deg);}
-    100%{transform: translate(-156px, -115px) scale(350%) rotate(-55deg);}
+    0%{transform: translate(-216px, -29px) scale(0) rotate(-55deg);}
+    24%{transform: translate(-216px, -29px) scale(0) rotate(-55deg);}
+    28%{transform: translate(-156px, -115px) scale(3.5) rotate(-55deg);}
+    100%{transform: translate(-156px, -115px) scale(3.5) rotate(-55deg);}
 }
 
 @keyframes cointoss4{
@@ -188,11 +188,11 @@ html {
 }
 
 @keyframes bulletseg5 {
-    0%{transform: translate(-160px, -201px) scale(0%) rotate(26deg);}
-    28%{transform: translate(-160px, -201px) scale(0%) rotate(26deg);}
-    36%{transform: translate(110px, -70px) scale(1000%) rotate(26deg);}
-    44%{transform: translate(380px, 62px) scale(2000%) rotate(26deg);}
-    100%{transform: translate(380px, 62px) scale(2000%) rotate(26deg);}
+    0%{transform: translate(-160px, -201px) scale(0) rotate(26deg);}
+    28%{transform: translate(-160px, -201px) scale(0) rotate(26deg);}
+    36%{transform: translate(110px, -70px) scale(10) rotate(26deg);}
+    44%{transform: translate(380px, 62px) scale(20) rotate(26deg);}
+    100%{transform: translate(380px, 62px) scale(20) rotate(26deg);}
 }
 
 @keyframes targetSpin {
