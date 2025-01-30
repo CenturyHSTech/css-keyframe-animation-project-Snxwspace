@@ -191,10 +191,11 @@ html {
     0%{transform: translate(-160px, -201px) scale(0%) rotate(26deg);}
     28%{transform: translate(-160px, -201px) scale(0%) rotate(26deg);}
     36%{transform: translate(110px, -70px) scale(1000%) rotate(26deg);}
-    100%{transform: translate(110px, -70px) scale(1000%) rotate(26deg);}
+    44%{transform: translate(380px, 62px) scale(2000%) rotate(26deg);}
+    100%{transform: translate(380px, 62px) scale(2000%) rotate(26deg);}
 }
 
 @keyframes targetSpin {
-    0%{transform: translate(100px, 240px) rotate3d(0, 1, 0, 0deg);}
-    100%{transform: translate(100px, 240px) rotate3d(0, 1, 0, 3600deg);}
+    0%{transform: translate(100px, 240px) rotateY(0deg);}
+    100%{transform: translate(100px, 240px) rotateY(3600deg);}
 }
